@@ -1,0 +1,22 @@
+.control-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+button {
+  position: fixed;
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,271 @@
+[
+  {
+    "text": "樹莓派 Raspberry Pi 5",
+    "type": "title",
+    "view": "https://dataconomy.com/wp-content/uploads/2023/09/aa7841cb-421a-4000-8ab9-c77478a4f83b-1024x683-1.jpg",
+    "content": [
+      {
+        "text": "歡迎來到最新一代的樹莓派：Raspberry Pi 5 萬能電腦",
+        "type": "subtitle",
+        "content": [
+          {
+            "text": "樹莓派5配備一顆64位元四核心 Arm Cortex-A76 處理器，時脈高達2.4GHz，相較於樹莓派4，CPU效能提升了2–3倍。同時，搭載了800MHz VideoCore VII GPU，支援雙4Kp60 HDMI顯示輸出並具備HDR支援；重新設計的樹莓派影像信號處理器提供了先進的攝像頭支援，為消費者提供了流暢的桌面體驗，同時為工業客戶打開了新的應用領域。",
+            "type": "text"
+          },
+          {
+            "text": "這是樹莓派首次採用由樹莓派自家製造的完整尺寸電腦，內建RP1南橋提供了樹莓派5的大部分I/O功能，並帶來了外設性能和功能的重大提升。聚合USB帶寬增加了一倍以上，使外部UAS驅動器和其他高速外設的傳輸速度更快；專用的雙通道1Gbps MIPI攝像頭和顯示器接口被一對四通道1.5Gbps MIPI收發器所取代，三倍的總帶寬支援最多兩個攝像頭或顯示器的任意組合；最大SD卡性能翻倍，支持SDR104高速模式；而且平台首次公開了單通道PCI Express 2.0接口，提供對高帶寬外設的支援。",
+            "type": "text"
+          },
+          {
+            "text": "在專題中主要作為整個電路的中樞，將Arduino的數據交由樹莓派做數據的分析以及上傳。",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "text": "處理器介紹",
+        "type": "subtitle",
+        "content": [
+          {
+            "text": "Broadcom BCM2712 2.4GHz 四核心 64位元 Arm Cortex-A76 CPU，具有加密擴展功能，每核心512KB L2快取和一個2MB共享L3快取",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "text": "Raspberry Pi 5特色",
+        "type": "subtitle",
+        "content": [
+          {
+            "text": "VideoCore VII GPU，支援OpenGL ES 3.1，Vulkan 1.2",
+            "type": "text"
+          },
+          {
+            "text": "雙4Kp60 HDMI顯示輸出，支援HDR",
+            "type": "text"
+          },
+          {
+            "text": "4Kp60 HEVC解碼器",
+            "type": "text"
+          },
+          {
+            "text": "LPDDR4X-4267 SDRAM 記憶體",
+            "type": "text"
+          },
+          {
+            "text": "雙頻802.11ac Wi-Fi",
+            "type": "text"
+          },
+          {
+            "text": "藍牙5.0 / 藍牙低功耗（BLE）",
+            "type": "text"
+          },
+          {
+            "text": "microSD卡槽，支援高速SDR104模式",
+            "type": "text"
+          },
+          {
+            "text": "2 × USB 3.0端口，支持同時5Gbps操作",
+            "type": "text"
+          },
+          {
+            "text": "2 × USB 2.0端口",
+            "type": "text"
+          },
+          {
+            "text": "Gigabit乙太網，支援PoE+（需要單獨的PoE+ HAT）",
+            "type": "text"
+          },
+          {
+            "text": "2 × 4通道MIPI攝像頭/顯示器收發器",
+            "type": "text"
+          },
+          {
+            "text": "PCIe 2.0 x1接口，用於快速外設（需要單獨的M.2 HAT或其他轉接器）",
+            "type": "text"
+          },
+          {
+            "text": "5V/5A USB-C供電，支援Power Delivery",
+            "type": "text"
+          },
+          {
+            "text": "樹莓派標準40引腳標頭",
+            "type": "text"
+          },
+          {
+            "text": "使用Python進行開發",
+            "type": "text"
+          },
+          {
+            "text": "實時時鐘（RTC），由外部電池供電",
+            "type": "text"
+          },
+          {
+            "text": "實體開關機電源",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Arduino Uno R3",
+    "type": "title",
+    "view": "https://www.researchgate.net/profile/Adriana-De-Andrade/publication/358008866/figure/download/fig1/AS:1114774012203009@1642794244756/Figura-1-Arduino-Fonte-https-wwwflickrcom-photos-adafruit-5027882580.jpg",
+    "content": [
+      {
+        "text": "Arduino Uno R3概述",
+        "type": "subtitle",
+        "content": [
+          {
+            "text": "Arduino Uno R3是一款廣泛用於教育和原型開發的微控制器開發板。",
+            "type": "text"
+          },
+          {
+            "text": "它提供了一個易於使用的平台，用於創建各種嵌入式系統和互動式原型。",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "text": "Arduino Uno R3特點",
+        "type": "subtitle",
+        "content": [
+          {
+            "text": "基於ATmega328P微控制器。",
+            "type": "text"
+          },
+          {
+            "text": "14個數位輸入/輸出引腳，其中6個可用作PWM輸出。",
+            "type": "text"
+          },
+          {
+            "text": "6個類比輸入引腳",
+            "type": "text"
+          },
+          {
+            "text": "內置16MHz晶體振盪器。",
+            "type": "text"
+          },
+          {
+            "text": "USB連接器和電源插口。",
+            "type": "text"
+          },
+          {
+            "text": "具有RESET按鈕。",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "text": "Arduino Uno R3 開發環境",
+        "type": "subtitle",
+        "content": [
+          {
+            "text": "可通過USB連接到計算機，使用Arduino IDE進行編程。",
+            "type": "text"
+          },
+          {
+            "text": "支援C和C++語言，並提供了豐富的函數庫和範例代碼。",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "text": "Arduino Uno R3 擴展性",
+        "type": "subtitle",
+        "content": [
+          {
+            "text": "開源性質意味著有許多擴展板（Shield）可用於擴展其功能。",
+            "type": "text"
+          },
+          {
+            "text": "擴展板包括Wi-Fi模塊、藍牙模塊、感測器等，可根據項目需求進行選擇。",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "text": "Arduino Uno R3 使用性",
+        "type": "subtitle",
+        "content": [
+          {
+            "text": "Arduino Uno R3是理想的入門級開發板，適用於學生、業餘愛好者和專業開發人員。",
+            "type": "text"
+          },
+          {
+            "text": "可應用於各種項目，從簡單的開發練習到複雜的嵌入式系統開發都適用。",
+            "type": "text"
+          },
+          {
+            "text": "在整體電路中arduino主要作為感測及時的數據將感測到的數據傳送給樹莓派",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "電路連接",
+    "type": "title",
+    "view": "./assets/C.png",
+    "content": [
+      {
+        "text": "通訊電路",
+        "type": "subtitle",
+        "content": [
+          {
+            "text": "UART與串口通訊",
+            "type": "subsubtitle",
+            "content": [
+              {
+                "text": "將樹莓派RX引腳連接到Arduino uno R3 TX引腳/將樹莓派TX引腳連接到Arduino uno R3 RX引腳",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "text": "電平連接方法",
+            "type": "subsubtitle",
+            "content": [
+              {
+                "text": "HV與LV為供電接腳，HV1`HV2與LV1`LV2為通道接腳HV`LV為供電，HV接於高壓測(Arduino端)，LV接於低壓測(Raspberry Pi端)。",
+                "type": "text"
+              },
+              {
+                "text": "電平主要作為將高壓測電壓轉換為低電壓，進而將低電壓測電壓轉換為高電壓防止通訊電路燒毀。",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "感測器連接",
+        "type": "subtitle",
+        "content": [
+          {
+            "text": "AHT-10",
+            "type": "subsubtitle",
+            "content": [
+              {
+                "text": "AHT-10使用I2C連接感測數據，所以須將SDA和SCL引腳連接到Arduino uno R3 A4引腳和A5引腳",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "text": "LY-69土壤感測器",
+            "type": "subsubtitle",
+            "content": [
+              {
+                "text": "將AO接到Arduino uno R3 A0引腳，將DO接到Arduino uno R3 D7引腳",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
