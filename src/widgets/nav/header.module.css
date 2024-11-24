@@ -1,0 +1,72 @@
+.main {
+    position: fixed;
+    width: 100%;
+    background: var(--theme-color);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 99;
+}
+
+.main .logo {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.main .logo h1 {
+    position: relative;
+    font-size: 32px;
+    color: var(--color-2);
+}
+
+.main .logo h1 span {
+    color: var(--color-1);
+}
+
+.main .nav {
+    position: relative;
+    list-style: none;
+    margin-right: 80px;
+    display: flex;
+    background: var(--icon-background);
+    border-radius: 15px;
+    padding: 10px 0;
+}
+
+.main .nav li {
+    margin: 0 15px;
+    padding: 5px 10px;
+}
+
+.main .nav li.active a {
+    color: var(--icon-active);
+}
+
+.main .nav li a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--icon-color);
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.main .nav li a svg {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 870px) {
+    .main .logo {
+        margin-left: 20px;
+    }
+
+    .main .nav {
+        margin-right: 20px;
+    }
+}

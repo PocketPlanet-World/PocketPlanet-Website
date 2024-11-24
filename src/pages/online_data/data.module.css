@@ -1,0 +1,22 @@
+.main {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main>div {
+    position: relative;
+    width: 80%;
+}
+
+.main>div>div {
+    width: 100%;
+    height: 70vh;
+    margin: .5vh 0 .5vh 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,42 @@
+.main {
+    position: relative;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.main .loader {
+    position: relative;
+    width: 10%;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.main .loader .line {
+    position: relative;
+    width: 40%;
+    height: 5px;
+    background-color: rgb(107, 27, 255);
+    border-radius: 2.5px;
+    z-index: 0;
+    margin-left: -40%;
+    animation: go 1s infinite;
+}
+
+@keyframes go {
+    from {
+        margin-left: -100%;
+        width: 40%;
+    }
+
+    to {
+        width: 20%;
+        margin-left: 110%;
+    }
+}
